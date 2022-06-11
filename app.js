@@ -119,8 +119,7 @@ class Calculator {
   
   equalsButton.addEventListener('click', button => {
     calculator.compute()
-    calculator.updateDisplay()
-    calculator.clear()
+    calculator.updateDisplay()    
   })
   
   allClearButton.addEventListener('click', button => {
